@@ -76,6 +76,45 @@
     border: none;
     cursor: pointer;
 }
+@media screen and (max-width: 769px) {
+    .main-image {
+        width: 40vw;
+        height: 45vh;
+}
+.arrow.left {
+    left: -10px;
+}
+
+.arrow.right {
+    right: -88px;
+}
+.thumb {
+    width: 6vw;
+}
+}
+@media screen and (max-width: 426px) {
+        .main-image {
+        width: 55vw;
+        height: 45vh;
+        margin-left: 10vw;
+}
+.arrow.left {
+    left: 7vw !important;
+}
+
+.arrow.right {
+    right: -162px;
+}
+.thumb {
+    width: 6vw;
+}
+.thumbnails {
+    margin-left: 10vw;
+}
+.arrow{
+    width: 7vw;
+}
+}
 @media screen and (max-width: 321px) {
     .main-image {
         width: 50vw;
@@ -89,7 +128,7 @@
 }
 
 .arrow.right {
-    right: -38px;
+    right: -72px;
 }
 .arrow{
     width: 6vw;
@@ -101,6 +140,6 @@
     overflow:scroll;
 }
 .all-part{
-    margin-left: 31vw;
+    margin-left: 22vw;
 }
 }

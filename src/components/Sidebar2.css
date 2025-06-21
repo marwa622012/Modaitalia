@@ -61,6 +61,7 @@ top: 0;
 left: 0;
 z-index: 1000;
 padding-top: 13vh;
+overflow-y: scroll;
 
 }
 .note-side{
@@ -127,6 +128,11 @@ width: 37vw;
 .mainside {
     padding-top: 22vh;
 }
+}
+@media screen and (max-width: 376px) {
+    .note-side{
+        font-size: 11px;
+    }
 }
 @media screen and (max-width: 321px) {
     .item-label {
