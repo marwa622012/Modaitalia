@@ -1,0 +1,28 @@
+.exclusive{
+    width: 24.5vw !important;
+    height: 37vh;
+    margin-bottom: 3vh !important;
+}
+@media screen and (max-width: 1025px) {
+    .exclusive{
+            width: 21vw !important;
+    }
+}
+@media screen and (max-width: 769px) {
+    .exclusive{
+            width: 33vw !important;
+    }
+}
+@media screen and (max-width: 426px) {
+    .exclusive{
+            width: 44vw !important;
+            margin-left: 5vw;
+    }
+}
+@media screen and (max-width: 321px) {
+    .exclusive{
+            width: 47vw !important;
+            margin-left: 4vw;
+                height: 35vh;
+    }
+}

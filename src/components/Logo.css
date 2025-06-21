@@ -1,0 +1,21 @@
+.image {
+    margin-left: 35vw !important;
+    margin-top: 13vh;
+    margin-bottom: 15vh;
+    width: 25vw !important;
+    height: 45vh !important;
+}
+@media screen and (max-width: 426px) {
+    .image {
+        height: 27vh !important;
+        width: 45vw !important;
+        margin-left: 25vw !important;
+    }
+}
+@media screen and (max-width: 321px) {
+    .image {
+        height: 27vh !important;
+        width: 45vw !important;
+        margin-left: 25vw !important;
+    }
+}

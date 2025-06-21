@@ -1,0 +1,23 @@
+.form{
+    /* width: 84vw; */
+    margin-left: 8vw !important;
+    margin-top: 10vh !important;
+    margin-bottom: 20vh !important;
+}
+.submit{
+    width: 10vw;
+    background-color: rgb(36, 36, 36);
+    color:  rgb(255, 255, 255);
+}
+.message{
+    height: 20vh;
+}
+@media screen and (max-width: 426px) {
+    .form{
+        margin-left: 0;
+    }
+    .submit{
+    width: 30vw !important;
+    }
+}
+

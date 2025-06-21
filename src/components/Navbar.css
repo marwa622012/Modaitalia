@@ -1,0 +1,84 @@
+.logo{
+    width: 8.5vw !important;
+    height: 7vh !important;
+    margin-right: 15%;
+    margin-left: 2vw !important;
+}
+.nav{
+    background-image: url('../images/bg-nav.jpeg');
+    margin-top: 30px !important;
+    z-index: 1040 !important;
+}
+.nav-1{
+    color: white !important;
+    margin-right: 2vw;
+}
+.dropdown-item:hover{
+    width: 100% !important;
+    background-color: black !important;
+    color: white !important;
+}
+
+.test{
+    width: 8vw;
+    text-align: justify;
+    position: absolute;
+    left: 14vw;
+    top: 2vh;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+    padding: 0;
+}
+.deep :hover .test{
+    display: block !important;
+}
+
+
+@media screen and (max-width:1025px) {
+    .test{
+        width: 20% !important;
+        left: 22vw;
+        top: 7vh;
+        padding: 1.5rem;
+    }
+    .logo{
+    width: 16vw !important;
+    height: 8vh !important;
+}
+}
+
+@media (max-width: 991px) {
+  .dropdown-menu .test {
+    position: static !important;
+    display: block !important;
+    box-shadow: none !important;  
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+    border-left: 2px solid #ddd;
+  }
+}
+@media screen and (max-width: 769px) {
+.logo{
+    width: 10vw !important;
+    height: 8vh !important;
+}
+.test{
+        width: 90% !important;
+}
+}
+@media screen and (max-width: 426px) {
+.logo{
+    width: 12vw !important;
+    height: 8vh !important;
+}
+.nav{
+  width: 100%;
+}
+}
+@media screen and (max-width: 321px) {
+.logo{
+    width: 14vw !important;
+    height: 8vh !important;
+}
+} 
+
