@@ -19,12 +19,11 @@ color: #fff !important;
 border-radius: 8px 8px 0 0;
 transition: background 0.3s;
 }
-
-/* .accordion-header:hover {
-background-color: #444;
-} */
-
-
+.accordion-header .arrows {
+  color: #fff;
+  width: 2vw;
+  height: 2vh;
+}
 .accordion-body {
 padding: 1rem 1.5rem;
 background-color: #fff;

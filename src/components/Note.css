@@ -30,7 +30,7 @@ to {
     font-size: 20px;
 }
 }
-@media screen and (max-width: 426px) {
+/* @media screen and (max-width: 426px) {
 .top-note {
     font-size: 16px;
     padding-top: 1vh;
@@ -39,6 +39,12 @@ to {
 @media screen and (max-width: 376px) {
 .top-note {
     font-size: 14px;
+}
+}
+@media screen and (max-width: 355px) {
+    .top-note {
+    font-size: 12px;
+    padding-top: 1vh !important;
 }
 }
 @media screen and (max-width: 321px) {
@@ -52,5 +58,24 @@ to {
     font-size: 11px;
     padding-top: 1vh !important;
 }
+} */
+@media (min-width: 375px) and (max-width: 426px) {
+    .top-note {
+    font-size: 15px;
+    padding-top: 1vh !important;
 }
+}
+@media (min-width: 317px) and (max-width: 375px) {
+    .top-note {
+    font-size: 13px;
+    padding-top: 1vh !important;
+}
+}
+@media (min-width: 290px) and (max-width: 317px) {
+    .top-note {
+    font-size: 11px;
+    padding-top: 1vh !important;
+}
+}
+
 

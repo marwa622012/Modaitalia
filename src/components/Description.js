@@ -8,18 +8,25 @@ export default function Description({ title = "Description", children }) {
 
   return (
     <div className="accordion-desc">
-      <div
-        className={`accordion-header ${open ? "active" : ""}`}
-        onClick={() => setOpen(!open)}
-      >
-        <span>{title}</span>
-        <span className="arrow text-light">{open ? <FontAwesomeIcon icon={faChevronUp} /> : <FontAwesomeIcon icon={faChevronDown} />}</span>
-      </div>
-      {open && (
-        <div className="accordion-body">
-          {children}
-        </div>
+  <div
+    className={`accordion-header ${open ? "active" : ""}`}
+    onClick={() => setOpen(!open)}
+  >
+    <span>{title}</span>
+    <span className="arrows">
+      {open ? (
+        <FontAwesomeIcon style={{ color: 'white' }} icon={faChevronUp} />
+      ) : (
+        <FontAwesomeIcon style={{ color: 'white' }} icon={faChevronDown} />
       )}
+    </span>
+  </div>
+  {open && (
+    <div className="accordion-body">
+      {children}
     </div>
+  )}
+</div>
+
   );
 }

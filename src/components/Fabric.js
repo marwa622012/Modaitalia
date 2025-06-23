@@ -2,7 +2,7 @@ export default function Fabric() {
     return(
         <div>
             <h2 className="text-center text-primary-emphasis mt-3">MODA ITALIA – Sourcing Profile</h2>
-            <div className="ms-5 ps-5 mt-4">
+            <div className="ms-sm-5 ms-5 ps-sm-5  mt-4">
                 <h3 className="text-primary-emphasis">Who We Are</h3>
                 <p className="fw-semibold">MODA ITALIA is an independent agency based in Egypt, founded and managed by Heba
                     Ahmad Mahmoud.<br/> We specialize in sourcing and representing high-quality textile and
