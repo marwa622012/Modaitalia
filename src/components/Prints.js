@@ -50,7 +50,7 @@ English edition. Regularly updated.</h6> */}
     <img
         src={hovered ? img2 : img1}
         alt="shirt"
-        className="shirt-image shirt-card col-3"
+        className="shirt-image  col-3"
     />
     </div>
     </Link>
@@ -62,7 +62,7 @@ English edition. Regularly updated.</h6> */}
     <img
         src={hover ? img4 : img3}
         alt="shirt"
-        className="shirt-image shirt-card col-3"
+        className="shirt-image  col-3"
     />
     </div>
     </Link>
@@ -74,7 +74,7 @@ English edition. Regularly updated.</h6> */}
     <img
         src={hove ? img6 : img5}
         alt="shirt"
-        className="shirt-image shirt-card col-3"
+        className="shirt-image  col-3"
     />
     </div>
     </Link>
@@ -86,7 +86,7 @@ English edition. Regularly updated.</h6> */}
     <img
         src={shirt ? img8 : img7}
         alt="shirt"
-        className="shirt-image shirt-card col-3"
+        className="shirt-image  col-3"
     />
     </div>
     </Link>
@@ -98,18 +98,18 @@ English edition. Regularly updated.</h6> */}
     <img
         src={shirt5 ? img10 : img9}
         alt="shirt"
-        className="shirt-image shirt-card col-3"
+        className="shirt-image  col-3"
     />
     </div>
     </Link>
         <Link className="shirt-card col-3" to="#">
-            <img src={ img11} alt="shirt" className="shirt-image shirt-card col-3 mb-5"/>
+            <img src={ img11} alt="shirt" className="shirt-image  col-3 mb-5"/>
         </Link>
         <Link className="shirt-card col-3 mb-5"to="#">
-            <img src={img12} alt="shirt" className="shirt-image shirt-card col-3"/>
+            <img src={img12} alt="shirt" className="shirt-image  col-3"/>
         </Link>
         <Link  className="shirt-card col-3 mb-5"to="#">
-            <img src={img13} alt="shirt" className="shirt-image shirt-card col-3 mb-5"/>
+            <img src={img13} alt="shirt" className="shirt-image  col-3 mb-5"/>
         </Link>
         
     </div>

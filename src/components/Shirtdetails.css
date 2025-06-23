@@ -115,6 +115,11 @@
     width: 7vw;
 }
 }
+@media screen and (max-width: 376px) {
+    .arrow.right {
+    right: -148px;
+}
+}
 @media screen and (max-width: 321px) {
     .main-image {
         width: 50vw;
@@ -128,7 +133,7 @@
 }
 
 .arrow.right {
-    right: -72px;
+    right: -68px;
 }
 .arrow{
     width: 6vw;
@@ -140,6 +145,6 @@
     overflow:scroll;
 }
 .all-part{
-    margin-left: 22vw;
+    margin-left: 18vw;
 }
 }

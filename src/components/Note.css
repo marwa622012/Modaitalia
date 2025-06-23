@@ -47,4 +47,10 @@ to {
     padding-top: 1vh !important;
 }
 }
+@media screen and (max-width: 292px) {
+.top-note {
+    font-size: 11px;
+    padding-top: 1vh !important;
+}
+}
 

@@ -14,7 +14,7 @@ function Navbar() {
     <button className="navbar-toggler text-white bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
     </button>
-    <h5 className='text-white pt-2'>Textile Designers & Collections</h5>
+    <h5 className='text-white pt-2 d-none d-lg-block'>Textile Designers & Collections</h5>
     <div className="collapse navbar-collapse ms-lg-3 ps-lg-5" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">

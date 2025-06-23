@@ -19,6 +19,12 @@
             margin-left: 5vw;
     }
 }
+@media screen and (max-width: 376px) {
+    .exclusive{
+            width: 50vw !important;
+            margin-left: 3vw;
+    }
+}
 @media screen and (max-width: 321px) {
     .exclusive{
             width: 47vw !important;

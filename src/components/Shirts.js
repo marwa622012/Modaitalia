@@ -29,17 +29,12 @@ const [shirt7, setshirt7] = useState(false);
 
 return (
     <div className="row mx-5 my-5 all">
-        {/* <h6 className="text-center mb-5 description">Trend Book for Men's Shirt Fabrics
-A professional trend publication focused on fabrics and colour directions for men’s shirts across city, sporty, and leisurewear styles. It highlights key trends in fibres, yarns, weaves, and patterns for yarn-dyed fabrics in cotton, linen, and blends. Each edition includes a curated selection of trending fabric swatches and a dedicated colour card with Pantone® references.
-Published biannually. English edition with fabric inserts.</h6> */}
-  <div className="container my-4">
-      <AccordionDescription title="Shirts">
+<div className="container my-4">
+    <AccordionDescription title="Shirts">
         Trend Book for Men's Shirt Fabrics
 A professional trend publication focused on fabrics and colour directions for men’s shirts across city, sporty, and leisurewear styles. It highlights key trends in fibres, yarns, weaves, and patterns for yarn-dyed fabrics in cotton, linen, and blends. Each edition includes a curated selection of trending fabric swatches and a dedicated colour card with Pantone® references.
 Published biannually. English edition with fabric inserts.
-      </AccordionDescription>
-
-      {/* باقي محتوى الصفحة */}
+    </AccordionDescription>
     </div>
         <Link className="shirt-card col-xl-3 col-md-6 col-12 mb-4" to="/shirtdetails">
         <div

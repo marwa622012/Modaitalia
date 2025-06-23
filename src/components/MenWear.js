@@ -3,7 +3,7 @@ import AccordionDescription from "../components/Description";
 function MensWear() {
 return (
     <div>
-        <div className="row mx-5 my-5 all">
+        <div className="row mx-0 my-5 all">
             <div className="container my-4">
                                             <AccordionDescription title="MenWear">
                                             Trend Book for Fashion Fabrics

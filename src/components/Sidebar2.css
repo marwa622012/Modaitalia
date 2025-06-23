@@ -142,4 +142,9 @@ width: 37vw;
         font-size: 11px;
     }
 }
+@media screen and (max-width: 300px) {
+    .note-side{
+        font-size: 10px;
+    }
+}
 
