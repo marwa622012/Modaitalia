@@ -336,7 +336,7 @@ function App() {
           </div>
           
         }/>
-          <Route path='/invitation' element={
+          <Route path='/notedetails' element={
           <div className='d-flex'> 
             <Notedetails />
           </div>
