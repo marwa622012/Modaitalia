@@ -47,7 +47,7 @@ const Sidebar2 = () => {
         ))}
       </ul>
       {!collapsed &&<div>
-        <div>  <Link className=" link-underline link-underline-opacity-0" to="/notedetails" target="_blank"><h6 className='note-side p-4 m-1 border rounded-pill text-light mt-3'>FIND MODA ITALIA AT <br/>INTERNATIONAL TRADE FAIRS</h6></Link></div>
+        <div>  <Link className=" link-underline link-underline-opacity-0" to="/notedetails"><h6 className='note-side p-4 m-1 border rounded-pill text-light mt-3'>FIND MODA ITALIA AT <br/>INTERNATIONAL TRADE FAIRS</h6></Link></div>
       </div>}
     </div>
   );
