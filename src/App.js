@@ -50,6 +50,8 @@ import Exclusive from './components/Exclusive';
 import Partners from './components/Partners';
 import Contactus from './components/Contactus';
 import Fabric from './components/Fabric';
+import International from './components/International';
+import Notedetails from './components/Notedetails';
 
 
 
@@ -327,6 +329,18 @@ function App() {
             <Sidebar2 />
             <Womenswear5 />
           </div>
+        }/>
+        <Route path='/international' element={
+          <div className='d-flex'> 
+            <International />
+          </div>
+          
+        }/>
+          <Route path='/invitation' element={
+          <div className='d-flex'> 
+            <Notedetails />
+          </div>
+          
         }/>
     </Routes>
   </Router>

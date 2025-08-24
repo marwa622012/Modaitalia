@@ -58,6 +58,7 @@ function Navbar() {
             </ul>
             </li>
             <li><Link className="dropdown-item text-dark" to="/fabric">Fabrics & Garment Sourcing</Link></li>
+            <li><Link className="dropdown-item text-dark" to="/international">International Ehibition Partnerships</Link></li>
             </ul>
         </li>
         <li className="nav-item">

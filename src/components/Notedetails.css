@@ -1,0 +1,19 @@
+.imagenote{
+    width: 8vw;
+    /* height: auto; */
+    margin-left: 6vw !important;
+}
+.text-note{
+    margin-top: 3vh;
+    /* margin-left: 5vw !important; */
+}
+.note-details{
+    width: 70vw;
+    height: 81vh !important;
+    margin-left: 15vw;
+    background-color: rgb(251, 251, 249);
+}
+.image-saudi{
+    width: 18vw;
+    margin-top: 3vh;
+}
