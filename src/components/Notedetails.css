@@ -17,3 +17,47 @@
     width: 18vw;
     margin-top: 3vh;
 }
+@media screen and (max-width: 769px) {
+    .mod{
+        margin-left: 10vw !important;
+    }
+}
+@media screen and (max-width: 426px) {
+    .note-details{
+        width: 80vw !important;
+        height: auto !important;
+        margin-left: 10vw;
+    }
+    .excl{
+        font-size: 12px !important;
+    }
+    .imagenote{
+        width: 20vw !important;
+        margin-left: 5vw !important;
+    }
+    .saudi-img{
+        width: 30vw !important;
+        
+        
+    }
+    .mod{
+        margin-left: 2vw !important;
+    }
+}
+@media screen and (max-width: 376px) {
+    .excl{
+        font-size: 10px !important;
+    }
+    .mod{
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .excl{
+        font-size: 8px !important;
+    }
+    .mod{
+        font-size: 16px !important;
+    }
+}
